@@ -1,43 +1,13 @@
 <!doctype html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Nomba1BOT • Market Intelligence</title>
-  <link rel="stylesheet" href="styles.css">
-</head>
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Nomba1BOT • Market Intelligence</title><link rel="stylesheet" href="styles.css"></head>
 <body>
-  <header class="topbar">
-    <div class="brand"><span class="pulse"></span><div><b>Nomba1BOT</b><small>Market Intelligence</small></div></div>
-    <div class="status"><span id="dot"></span><span id="statusText">Connecting…</span></div>
-  </header>
-
-  <main>
-    <section class="hero">
-      <div><p class="eyebrow">MULTI-STRATEGY SIGNAL ENGINE</p><h1>500 strategies.<br><span>One decision panel.</span></h1><p class="sub">Select the strategies you actually use. Nomba1BOT evaluates the selected models across 5m, 15m and 30m data and turns their outputs into a readable market signal.</p></div>
-      <div class="hero-card"><div class="big" id="selectedCount">0</div><div>strategies selected</div><div class="mini">Refresh <b id="nextRun">05:00</b></div></div>
-    </section>
-
-    <section class="toolbar">
-      <div class="search"><span>⌕</span><input id="search" placeholder="Search 500 strategies…"></div>
-      <select id="category"><option value="all">All categories</option></select>
-      <button id="selectAll">Select visible</button><button id="clearAll" class="ghost">Clear</button>
-    </section>
-
-    <section class="layout">
-      <div class="strategy-panel"><div class="panel-head"><div><b>Strategy library</b><small id="resultCount">500 strategies</small></div><div class="chips"><span>5m</span><span>15m</span><span>30m</span></div></div><div id="strategyGrid" class="strategy-grid"></div></div>
-      <aside class="signal-panel">
-        <div class="panel-head"><div><b>Live consensus</b><small id="marketName">Demo market</small></div><span class="live">LIVE</span></div>
-        <div class="instrument"><select id="symbol"><option>EURUSD</option><option>GBPUSD</option><option>USDJPY</option><option>XAUUSD</option><option>BTCUSD</option><option>ETHUSD</option></select><span id="price">—</span></div>
-        <div class="signal" id="signal"><strong>WAIT</strong><span>Select strategies to begin</span></div>
-        <div class="meter"><div id="meterFill"></div></div><div class="confidence"><span>Confidence</span><b id="confidence">0%</b></div>
-        <div class="votes"><div><b id="buy">0</b><span>BUY</span></div><div><b id="sell">0</b><span>SELL</span></div><div><b id="neutral">0</b><span>NEUTRAL</span></div><div><b id="uncertain">0</b><span>UNCERTAIN</span></div></div>
-        <div class="timeframes"><b>Timeframe confirmation</b><div><span>5m</span><i id="tf5">WAIT</i></div><div><span>15m</span><i id="tf15">WAIT</i></div><div><span>30m</span><i id="tf30">WAIT</i></div></div>
-        <button id="notify" class="notify">WhatsApp notifications: OFF</button>
-      </aside>
-    </section>
-  </main>
-  <footer>Signal engine preview • No automatic order execution • Market data status is shown above</footer>
-  <script src="strategies.js"></script><script src="app.js"></script>
-</body>
-</html>
+<header class="topbar"><div class="brand"><span class="pulse"></span><div><b>Nomba1BOT</b><small>Market Intelligence</small></div></div><div class="status"><span id="dot"></span><span id="statusText">Connecting…</span></div></header>
+<main>
+<section class="hero"><div><p class="eyebrow">MULTI-STRATEGY SIGNAL ENGINE</p><h1>1,000 strategies.<br><span>One decision panel.</span></h1><p class="sub">Build your own signal stack. Select the strategies you want Nomba1BOT to evaluate across 5m, 15m and 30m market data, then see the combined market bias in one clean dashboard.</p></div><div class="hero-card"><div class="big" id="selectedCount">0</div><div>strategies selected</div><div class="mini">Next analysis <b id="nextRun">05:00</b></div></div></section>
+<section class="toolbar"><div class="search"><span>⌕</span><input id="search" placeholder="Search 1,000 strategies…"></div><select id="category"><option value="all">All categories</option></select><button id="selectAll">Select visible</button><button id="clearAll" class="ghost">Clear</button></section>
+<section class="layout"><div class="strategy-panel"><div class="panel-head"><div><b>Strategy library</b><small id="resultCount">1,000 strategies</small></div><div class="chips"><span>5m</span><span>15m</span><span>30m</span></div></div><div id="strategyGrid" class="strategy-grid"></div></div>
+<aside class="signal-panel"><div class="panel-head"><div><b>Market consensus</b><small id="marketName">Demo market</small></div><span class="live">LIVE</span></div><div class="instrument"><select id="symbol"><option>EURUSD</option><option>GBPUSD</option><option>USDJPY</option><option>XAUUSD</option><option>BTCUSD</option><option>ETHUSD</option></select><span id="price">—</span></div><div class="signal" id="signal"><strong>WAIT</strong><span>Select strategies to begin</span></div><div class="meter"><div id="meterFill"></div></div><div class="confidence"><span>Confidence</span><b id="confidence">0%</b></div><div class="votes"><div><b id="buy">0</b><span>BUY</span></div><div><b id="sell">0</b><span>SELL</span></div><div><b id="neutral">0</b><span>NEUTRAL</span></div><div><b id="uncertain">0</b><span>UNCERTAIN</span></div></div><div class="timeframes"><b>Timeframe confirmation</b><div><span>5m</span><i id="tf5">WAIT</i></div><div><span>15m</span><i id="tf15">WAIT</i></div><div><span>30m</span><i id="tf30">WAIT</i></div></div><button id="notify" class="notify">WhatsApp notifications: OFF</button></aside></section></main>
+<footer>Signal engine preview • No automatic order execution • Market data status is shown above</footer>
+<script src="strategies.js"></script><script src="strategies_501_1000.js"></script><script src="app.js"></script>
+</body></html>
